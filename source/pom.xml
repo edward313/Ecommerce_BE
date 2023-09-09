@@ -101,7 +101,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<finalName>api-0.0.1-SNAPSHOT.jar</finalName>
+					<mainClass>com.store.api.Application</mainClass>
+					<layout>JAR</layout>
 				</configuration>
 			</plugin>
 		</plugins>
